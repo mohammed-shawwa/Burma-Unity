@@ -20,6 +20,8 @@ namespace Lec12.Part2
 
             Debug.Log("Combined Inventory Items:");
             combinedInventory.ShowItems();
+            
+            
         }
     }
 }
