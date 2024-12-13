@@ -10,16 +10,18 @@ namespace Assignment27
         {
             int a = 2, b = 3, c;
 
-            Debug.Log($"Value of a: {a}");
+            Debug.Log("Value of a: " + a);
             CallByValue(a);
-            Debug.Log($"Value of a after CallByValue call: {a}");
+            Debug.Log("Value of a after CallByValue call: " + a);
 
-            Debug.Log($"Value of b: {b}");
+
+            Debug.Log("Value of b: " + b);
             CallByReference(ref b);
-            Debug.Log($"Value of b after CallByReference call: {b}");
+            Debug.Log("Value of b after CallByReference call: " + b);
+
 
             UsingOut(out c);
-            Debug.Log($"Value of c after UsingOut call: {c}");
+            Debug.Log("Value of c after UsingOut call: " + c);
 
         }
 
