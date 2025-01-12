@@ -10,8 +10,8 @@ namespace Assignment29
         {
             Cat cat = new Cat();
             Animal animal = cat;
-            animal.MakeSound();
-            animal.Move();
+            animal.MakeSound(); // راح يطبع Meow!
+            animal.Move(); // راح يطبع Animal move
 
             Cat catDownCasting = animal as Cat;
             catDownCasting.MakeSound();
